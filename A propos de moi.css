@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-image: url('../fond')
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.lien a:hover{
+
+    color: orchid;
+
+    transition: .3s; 
+
+}
+.lien{
+    margin-right: 120px;
+}
+span{
+    color: orchid;
+}
+.lien a{
+    padding-left: 45px;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+section{
+    margin-top: 50px;
+    width: 70%;
+    margin-left: 15%;
+    box-shadow: 0 3px 6px rgb(0, 0, 0, 0.2);
+}
+h1{
+    margin-left: 100px;
+    margin-top: 25px;
+    font-size: 40px;
+    padding-bottom: 10px;
+
+    height: 90px;
+    color: orchid;
+}
+.rs{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: 0 4px 7px rgb(0, 0, 0, 2);
+}
+i{
+    font-size: 30px;
+    margin-left: 2.5rem;
+}
+i:hover{
+    color: orchid;
+}
+.photo{
+    width: 90%;
+    display: flex;
+    border-radius: 10%;
+}
+.APROPOS{
+    margin-left: 35px;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+p{
+    color: white;
+    margin-left: 40px;
+}
+body{
+    background-image: url(./fonds/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    border: 2px dashed orchid;
+}
